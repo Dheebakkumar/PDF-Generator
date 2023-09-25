@@ -21,7 +21,8 @@ public class PayController {
 	
 	@GetMapping("/pay/aw")
 	public void generatePdfPay(HttpServletResponse response) throws Exception {
-		
+
+		System.out.println("Im GitHub");
 		String headerKey = "Content-Disposition";
 		String HeaderValue = "inline ; filename = pay.pdf";
 		response.addHeader(headerKey, HeaderValue);
