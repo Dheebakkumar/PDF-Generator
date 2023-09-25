@@ -69,6 +69,10 @@ public class PayService {
 			Font normal = FontFactory.getFont(FontFactory.HELVETICA,14);
 			Font bold = FontFactory.getFont(FontFactory.HELVETICA_BOLD,16);
 			
+			Font normal1 = FontFactory.getFont(FontFactory.HELVETICA,14,BaseColor.WHITE);
+			Font bold1 = FontFactory.getFont(FontFactory.HELVETICA_BOLD,16,BaseColor.WHITE);
+		    
+			
 			
 		    Paragraph para2 = new Paragraph(" ");
 		   // Paragraph para1 = new Paragraph(currentDateTime,normal);
@@ -80,8 +84,8 @@ public class PayService {
 		    dcell.setBorder(Rectangle.LEFT|Rectangle.RIGHT);
 		    table1.setWidthPercentage(100);
 		    
-		    Chunk c1 = new Chunk("Booking Date :",bold);
-		    Chunk c2 = new Chunk(" "+currentDateTime,normal);
+		    Chunk c1 = new Chunk("Booking Date :",bold1);
+		    Chunk c2 = new Chunk(" "+currentDateTime,normal1);
 		    
 		    Phrase p = new Phrase();
 		    p.add(c1);
