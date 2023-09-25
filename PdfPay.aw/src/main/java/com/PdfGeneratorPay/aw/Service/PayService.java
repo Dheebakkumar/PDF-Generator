@@ -247,16 +247,8 @@ public class PayService {
 
 		    sixCell.addElement(paytable1);
 		    table6.addCell(sixCell);
-		    
-		   
-		   
-		    
-		    
-		    
-		    
-		    
-		    
-		    
+
+			
 		    
 		    document.add(table1);
 		    document.add(table2);
