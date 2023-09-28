@@ -31,10 +31,7 @@ public class PayService {
 
 	public String paySlip(OutputStream outputstream) throws Exception {
 				
-		try {
-			
-			System.out.println("this is Service Class");
-			
+		try {		
 			Rectangle pageSize = new Rectangle(700,1100);
 			Document document = new Document(pageSize);
 			PdfWriter writer = PdfWriter.getInstance(document, outputstream);
