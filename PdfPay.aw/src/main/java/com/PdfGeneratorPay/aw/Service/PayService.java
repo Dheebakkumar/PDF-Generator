@@ -33,6 +33,8 @@ public class PayService {
 				
 		try {
 			
+			System.out.println("this is Service Class");
+			
 			Rectangle pageSize = new Rectangle(700,1100);
 			Document document = new Document(pageSize);
 			PdfWriter writer = PdfWriter.getInstance(document, outputstream);
